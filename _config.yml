@@ -6,5 +6,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   Currently a Junior at Seattle Pacific University pursuing a Bachelor's Degree of Science in Information Systems. My hobbies include watching and playing soccer, basketball, and badminton.
   <br><br>
   <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
-  
+
+theme: jekyll-theme-minimal
+
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
