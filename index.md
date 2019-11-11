@@ -12,17 +12,17 @@
 ### Github Class Projects – Shoreline Community College
 
 [Adventure Game (Java)](http://example.com/)
-<img src="images/spu-logo-header-1024x576.jpg?raw=true"/>
+<img src="images/logo-usage-color.png?raw=true"/>
 
 ---
 
 [Assassin (Java)](http://example.com/)
-<img src="images/spu-logo-header-1024x576.jpg?raw=true"/>
+<img src="images/logo-usage-color.png?raw=true"/>
 
 ---
 
 [Hangman (Python)](http://example.com/)
-<img src="images/spu-logo-header-1024x576.jpg?raw=true"/>
+<img src="images/logo-usage-color.png?raw=true"/>
 
 ---
 
