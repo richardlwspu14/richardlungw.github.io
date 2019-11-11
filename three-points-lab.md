@@ -1,242 +1,152 @@
-# Three Points Lab Assignment
-
-## Goal
-Your assignment is to write a C++ program that will read three points and will determine if the points represent a line or a triangle, the program will output information about the line or triangle depending the case.  This project will help you practicing:
-* C++ editing, running and debugging
-* ID, variables, types
-* Functions
-* Control structures
-
-## Sample Run
-
-```
-Input Point 1: 2 1
-Input Point 1: 3 4
-Input Point 1: 5 1
-A Triangle
-Sides:
-  3.16
-  3.61
-  3.00
-Angles:
-  0.98
-  1.25
-  0.91
-Perimeter:   9.77
-Area:        4.50
-
-```
-
-## Detailed Explanation
-When you run the program, it will ask the user to input three points. The program then will check whether the points form a line or a triangle.
-* If the points make up a line the program will output:
-  * The slope of the line
-  * The length of the segment formed by the three points
-* If the points make up a triangle the program will output:
-  * The length of the sides
-  * The interior angles
-  * The triangle perimeter
-  * The triangle area
-* The points may form a vertical line, in which case you must only output: Infinite Slope and exit the program.
-
-Your program should output the exact same format as it is shown in the sample runs section of this document. The assessment of this activity will be done automatically, and the script will check if your output matches exactly the output of the given cases.
-
-## Extra Credit
-
-* Consider vertical lines in your program without exiting.
-* Show the angles in degrees also.
-
-## Functions to Write
-
-Function Declaration | Description
----------------------|-------------
-`double Slope(double, double, double, double)` | Calculates the slope of the line defined by the two points that the function takes as parameter.
-`double Length(double, double, double, double)` | Calculates the length of the segment defined by the two points taken as parameter.
-`double Area(double, double, double)` | Calculates the area of a triangle defined by the lengths of its sides.
-`double Perimeter(double, double, double)` | Returns the perimeter of a triangle defined by the lengths of its sides.
-`double Angle(double, double, double)` | Calculates the interior angle opposite to the length of the first parameter. The three parameters represent the length of the sides.
-
-You may write additional functions, but **you must** write the aforementioned functions.
-
-## Error Handling
-
-Your program should not crash on any numerical input. In this assignment there will not be mal formatted input tests (i.e. input strings where numbers are expected), however in later assignments there will be.
-
-Here’s how it should look when you run with points (1, 2), (2, 4) and (5, 2):
-```
-Input Point 1: 1 2
-Input Point 1: 2 4
-Input Point 1: 5 2
-A Triangle
-Sides:
-  2.24
-  3.61
-  4.00
-Angles:
-  0.59
-  1.11
-  1.45
-Perimeter:   9.84
-Area:        4.00
-
-```
-
-## Program Style
-Your program needs to be orderly and readable.  If you are working a development team and don’t write clean looking code, you will be unpopular among your colleagues and may not work on that team very long.
-
-Variables should be given descriptive names that start with a lowercase letter and obey the camelCase convention.
-
-**Do not use Global Variables**: Global variables sometimes are appropriate, but not in the assignments we will be giving this quarter.
-
-Functions should be given descriptive names that start with an uppercase letter and obey the CamelCase convention.  First word of a function name typically should be a verb.
-
-At the start of your file you should have a header comment that gives the title of the assignment, the purpose, and your name.  Here is an example of what that could look like:
-
-```
 /*
     Title:      Lab 1 – threepoints.cpp
     Purpose:    read three points and determine if they form a line or triangle
-    Author:     John Johnson
-    Date:       October 14 2019
+    Author:     Richard Lung Wicaksono
+    Date:       October 27, 2019
 */
 
-```
+#include <iostream>
+#include <iomanip>
+#include <cmath>
 
-Each subordinate function should also start with a header that describes what it does, it’s parameters, what it returns, and how errors are handled.  Here is an example:
+using std::cout;
+using std::cin;
+using std::endl;
+using std::setw;
+using std::setprecision;
+using std::fixed;
+using std::max;
+using std::min;
 
-```
+double Slope(double, double, double, double);
+double Length(double, double, double, double);
+double Area(double, double, double);
+double Perimeter(double, double, double);
+double Angle(double, double, double);
+
+
+int main() {
+    double xVal, yVal;
+    double x1, y1, x2, y2, x3, y3;
+    double sideA, sideB, sideC;
+    double minX, minY, maxX, maxY;
+    const double PI = 3.14159;
+    //Prints out the input points and prompts the user for three
+    //different coordinates
+    for (int i = 1; i <= 3; i++) {
+        cout << "Input Point " << i << ": ";
+        cin >> xVal >> yVal;
+        //Assigns the inputs above to their respective variables
+        if (i == 1) {
+            x1 = xVal;
+            y1 = yVal;
+        } else if (i == 2) {
+            x2 = xVal;
+            y2 = yVal;
+        } else {
+            x3 = xVal;
+            y3 = yVal;
+        }
+    }
+    //Finds the minimum and maximum coordinates in order to find the
+    //endpoints of a line
+    minX = min(min(x1, x2), x3);
+    minY = min(min(y1, y2), y3);
+    maxX = max(max(x1, x2), x3);
+    maxY = max(max(y1, y2), y3);
+    //Finds the sides of a triangle using the Length() function
+    sideA = Length(x1, y1, x2, y2);
+    sideB = Length(x2, y2, x3, y3);
+    sideC = Length(x1, y1, x3, y3);
+    //
+    if (x1 == x2 || x2 == x3 || x1 == x3) {
+        cout << "Infinite Slope" << endl;
+    } else if (y1 == y2 || y2 == y3 || y1 == y3) {
+        cout << "A Triangle" << endl;
+        cout << "Sides: " << endl;
+        cout << setw(6) << setprecision(2) << fixed << sideA << endl;
+        cout << setw(6) << setprecision(2) << fixed << sideB << endl;
+        cout << setw(6) << setprecision(2) << fixed << sideC << endl;
+
+        cout << "Angles: " << endl;
+        cout << setw(6) << setprecision(2) << fixed << Angle(sideA, sideB, sideC)
+             << " rad, " << Angle(sideA, sideB, sideC) * 180 / PI << " degrees" << endl;
+
+        cout << setw(6) << setprecision(2) << fixed << Angle(sideB, sideA, sideC)
+                << " rad, " << Angle(sideB, sideA, sideC) * 180 / PI << " degrees" << endl;
+
+        cout << setw(6) << setprecision(2) << fixed << Angle(sideC, sideB, sideA)
+             << " rad, " << Angle(sideC, sideB, sideA) * 180 / PI << " degrees" << endl;
+
+
+        cout << "Perimeter: " << setw(6) << setprecision(2) << fixed << Perimeter(sideA, sideB, sideC) << endl;
+        cout << "Area: " << setw(11) << setprecision(2) << fixed << Area(sideA, sideB, sideC) << endl;
+    } else {
+        cout << "A Line" << endl;
+        cout << "Slope: " << setw(7) << setprecision(2) << fixed << Slope(x1, y1, x2, y2) << endl;
+        cout << "Length: " << setw(6) << setprecision(2) << fixed << Length(minX, minY, maxX, maxY) << endl;
+    }
+
+
+    return 0;
+}
+// Calculates the slope of the line
+// Params: four doubles that represent two of the coordinates of the line
+// Returns: a double, the slope of the line
+// Format Error: there should be no errors
+double Slope(double x1, double y1, double x2, double y2) {
+    double slopeVal;
+
+    slopeVal = (y2 - y1) / (x2 - x1);
+
+    return slopeVal;
+}
+// Calculates the length of the line
+// Params: four doubles that represent the endpoints of the line
+// Returns: a double, the length of the line
+// Format Error: there should be no errors
+double Length(double x1, double y1, double x2, double y2) {
+    double lengthVal;
+
+    lengthVal = sqrt(pow(x2 - x1, 2.0) + pow(y2 - y1, 2.0));
+
+    return lengthVal;
+}
 // Calculates the area of the triangle
 // Params: three doubles that represent the length of each of the triangles
 // sides
 // Returns: a double, the area of the sides
 // Format Error: there should be no errors
-```
+double Area(double sideA, double sideB, double sideC) {
+    double semiPerim;
+    double areaVal;
 
-You should include additional comments in your code to describe what you are doing.   If it is hard to understand what a variable is for, add a comment after it.   It possible, though, to put in too many comments, so be judicious and make sure you have time left to do well in your other classes when it comes to commenting.
+    semiPerim = (sideA + sideB + sideC) / 2;
+    areaVal = sqrt(semiPerim * (semiPerim - sideA) * (semiPerim - sideB) * (semiPerim - sideC));
 
-You should adopt a consistent style for how you format your curly braces {}.   Do it the same way throughout your file.  Make sure you indent lines properly.
+    return areaVal;
+}
+// Calculates the perimeter of the triangle
+// Params: three doubles that represent the length of each of the triangles
+// sides
+// Returns: a double, the perimeter of the sides
+// Format Error: there should be no errors
+double Perimeter(double sideA, double sideB, double sideC){
+    double perimeterVal;
 
-## Submitting your code
-Your solution should be contained within a single C++ file, and it must be named “threepoints.cpp”.
+    perimeterVal = sideA + sideB + sideC;
 
-Before submitting, make sure that you test all the examples values and that you get the output exactly like the one presented in the examples.
+    return perimeterVal;
+}
+// Calculates the interior angles of the triangle
+// Params: three doubles that represent the length of each of the triangles
+// sides
+// Returns: a double, the angle of the sides
+// Format Error: there should be no errors
+double Angle(double sideA, double sideB, double sideC) {
+    double angleVal;
 
-Your code needs to be submitted through GitHub Classroom, before the deadline you will need to push your last version of your program. As a good programming practice remember to commit frequently and to push every time you have a functioning version of your code.0
+    angleVal = acos((pow(sideB, 2.0) + pow(sideC, 2.0) - pow(sideA, 2.0)) / (2 * sideB * sideC));
 
-## Grading
-Correctness is essential.  Make sure your solution builds as described above and correctly handles the test cases given in this lab.  We will test on other input values as well. Your code must compile and should not have runtime errors (crash).
-
-Even if your solution operates correctly, points will be taken off for:
-- Not following the design described above
-- Not adhering to style guidelines described above
-- Using techniques not presented in class
-- Programming error not caught by other testing
-- Not following good programming practices
-
-Academic Integrity
-This programming assignment is to be done on an individual basis. At the same time, it is understood that learning from your peers is valid and you are encouraged to talk among yourselves about programming in general and current assignments in particular.  Keep in mind, however, that each individual student must do the work in order to learn.  Hence, the following guidelines are established:
-- Feel free to discuss any and all programming assignments but do not allow other students to look at or copy your code. Do not give any student an electronic or printed copy of any program you write for this class.
-- Gaining the ability to properly analyze common programming errors is an important experience. Do not deprive a fellow student of his/her opportunity to practice problem solving: control the urge to show them what to do by writing the code for them.
-- If you’ve given the assignment a fair effort and still need help, see the instructor or a lab assistant.
-- **If there is any evidence that a program or other written assignment was copied from another student, neither student will receive any credit for it. This rule will be enforced.**
-- Protect yourself: Handle throw-away program listings carefully, keep your repository private.
-
-Refer to the ECS Department Policy on Academic Integrity that is included in the class syllabus.
-
-## Grading Rubric Summary
-The following aspects are going to be consider during grading. Make sure you comply with all of them.
-- The program compiles (there will be no partial credit for programs that do not compile)
-- Provides the correct output for the test cases
-- Catches errors gracefully, the program does not crash on incorrect input
-- The program outputs the information in the specified format
-- The program identifies lines correctly
-- The program identifies triangles correctly
-- The program calculates length correctly
-- The program calculates area, perimeter and interior angles correctly
-- The program follows the good programming practices discussed in class
-- The assignment follows all the instructions
-- In general the program does not crash
-
-## Sample Runs
-
-### Example 1
-```
-Input Point 1: 2 1
-Input Point 1: 2 4
-Input Point 1: 5 1
-Infinite Slope
-
-```
-
-### Example 2
-```
-Input Point 1: 2 1
-Input Point 1: 3 4
-Input Point 1: 5 1
-A Triangle
-Sides:
-  3.16
-  3.61
-  3.00
-Angles:
-  0.98
-  1.25
-  0.91
-Perimeter:   9.77
-Area:        4.50
-
-```
-
-
-### Example 3
-```
-Input Point 1: 2 1
-Input Point 1: 3 4
-Input Point 1: 4 7
-A Line
-Slope:    3.00
-Length:   6.32
-
-```
-
-
-### Example 4
-```
-Input Point 1: 2 1
-Input Point 1: 4 7
-Input Point 1: 3 4
-A Line
-Slope:    3.00
-Length:   6.32
-
-```
-
-
-### Example 5
-```
-Input Point 1: 2 0
-Input Point 1: 10 0
-Input Point 1: 6 8
-A Triangle
-Sides:
-  8.00
-  8.94
-  8.94
-Angles:
-  0.93
-  1.11
-  1.11
-Perimeter:  25.89
-Area:       32.00
-
-```
-
-
-### Example 6
-```
-Input Point 1: 1 2
-Input Point 1: 1 5
-Input Point 1: 2 3
-Infinite Slope
-
-```
+    return angleVal;
+}
