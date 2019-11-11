@@ -2,30 +2,31 @@
 
 ---
 
-### Github Class Projects 
+### Github Class Projects – Seattle Pacific University
 
-[Three Points Lab Assignment](/three-points-lab.md)
+[Three Points Lab Assignment (C++)](/three-points-lab.md)
 <img src="images/spu-logo-header-1024x576.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+### Github Class Projects – Shoreline Community College
+
+[Adventure Game (Java)](http://example.com/)
+<img src="images/spu-logo-header-1024x576.jpg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+[Assassin (Java)](http://example.com/)
+<img src="images/spu-logo-header-1024x576.jpg?raw=true"/>
 
 ---
 
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+[Hangman (Python)](http://example.com/)
+<img src="images/spu-logo-header-1024x576.jpg?raw=true"/>
 
 ---
+
+
 
 
 
