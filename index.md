@@ -5,7 +5,7 @@
 ### Github Class Projects 
 
 [Three Points Lab Assignment](/three-points-lab.md)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/spu-logo-header-1024x576.jpg?raw=true"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
