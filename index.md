@@ -4,7 +4,7 @@
 
 ### Github Class Projects 
 
-[Three Points Lab Assignment](/three-points-lab)
+[Three Points Lab Assignment](/three-points-lab.md)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
