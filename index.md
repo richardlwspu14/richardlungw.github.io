@@ -10,7 +10,9 @@
 ---
 
 [Text Analysis Lab Assignment (C++)](/text-analysis.md)
-<img src="images/Screen Shot 2019-12-08 at 19.03.45.png?raw=true"/>
+<img src="images/Screen Shot 2019-12-08 at 22.56.59.png?raw=true"/>
+<img src="images/Screen Shot 2019-12-08 at 22.56.49.png?raw=true"/>
+
 
 
 
