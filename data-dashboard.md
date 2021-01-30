@@ -8,7 +8,7 @@ As a Data Analyst intern at PT. HK Metals Utama Tbk, I was assigned to develop a
 
 ## Assignment Outcome
 **_Due to confidentiality, only the two features down below are allowed to be shared to the public._** 
-<br></br>
+
 <img src="images/Data dashboard ar bar chart.png?raw=true"/>
 _This is a bar chart showing the amount of account receivables during the time period chosen. The user can choose specific dates to view the data. A table which consists details of the bar chart is shown below the chart. All the data are extracted from phpMyAdmin._
 
