@@ -5,7 +5,9 @@
 ### Class Projects – Seattle Pacific University
 
 [CSC3220 Applications Programming Final Project (Qt C++)](/three-points-lab.md)
-<img src=""/>
+<img src="images/Londre sc 1.png?raw=true"/>
+<img src="images/Londre sc 2.png?raw=true"/>
+<img src="images/Londre sc 3.png?raw=true"/>
 
 ---
 
