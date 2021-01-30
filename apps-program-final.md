@@ -10,13 +10,13 @@ We came up with an idea of a laundry app guide. All clothing and linens have cer
 
 ## Project Outcome
 <img src="images/Londre sc 1.png?raw=true"/>
-The starting page of our application. The top button will allow users to access the app's services, while the button at the bottom will allow the users to access the timer. 
+_The starting page of our application. The top button will allow users to access the app's services, while the button at the bottom will allow the users to access the timer._ 
 
 <img src="images/Londre sc 2.png?raw=true"/>
-This is where the users are able to choose the logos based on their clothing/linen tag symbols. The 5 tabs indicate the type of washing (i.e. "Wash", "Bleach", "Dry", "Iron", "Dry Clean"). Users can then proceed to the next page by clicking the button at the bottom right. 
+_This is where the users are able to choose the logos based on their clothing/linen tag symbols. The 5 tabs indicate the type of washing (i.e. "Wash", "Bleach", "Dry", "Iron", "Dry Clean"). Users can then proceed to the next page by clicking the button at the bottom right._ 
 
 <img src="images/Screen Shot 2021-01-29 at 9.52.20 PM.png?raw=true"/>
-These are the instructions for the chosen symbols. The symbols are displayed at the top of the instructions.
+_These are the instructions for the chosen symbols. The symbols are displayed at the top of the instructions._
 
 <img src="images/Londre sc 3.png?raw=true"/>
-This is the timer page of the app. Users may use this timer for their washer/dryer.
+_This is the timer page of the app. Users may use this timer for their washer/dryer._
