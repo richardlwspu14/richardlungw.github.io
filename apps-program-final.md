@@ -4,7 +4,7 @@
 The assignment is to create a software application with the Qt program application. 
 
 ## Project Details
-This was a final group project for the CSC3220 Applications Programming course. My group consisted of 2 members, myself and my teammate, Pravitha. I was responsible for the coding and quality control and Pravitha was responsible for the UI/UX design. 
+This was a final group project for the CSC3220 Applications Programming course. My group consisted of 2 members, myself and my teammate, Pravitha. I was mainly responsible for the coding and quality control and Pravitha was mainly responsible for the UI/UX design. 
 
 We came up with an idea of a laundry app guide. All clothing and linens have certain conditions when they are to be washed, and so this app provides the guide to correctly wash specific laundry. Users are able to choose the symbols based on the clothing and/or linen they wish to wash, and the app will provide instructions on how to wash them. A built-in timer is also available in the application. 
 
