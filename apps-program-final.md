@@ -1,4 +1,4 @@
-# Text Analysis
+# Londré
 
 ## Goal
 The assignment is to create a software application with the Qt program application. 
