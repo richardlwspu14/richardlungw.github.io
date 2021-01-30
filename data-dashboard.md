@@ -7,7 +7,7 @@ The internship as a Data Analyst was conducted at PT. HK Metals Utama Tbk, a loc
 As a Data Analyst intern at PT. HK Metals Utama Tbk, I was assigned to develop a web-based data dashboard which displays up-to-date data of accounts receivable and sales. The company uses XAMPP to develop its web applications and phpMyAdmin to store and upload the database. Thus, I used these two programs to develop the data dashboard and Visual Studio Code as my IDE. 
 
 ## Assignment Outcome
-Due to confidentiality, only the two features down below are allowed to be shared to the public. 
+**_Due to confidentiality, only the two features down below are allowed to be shared to the public._** 
 <br></br>
 <img src="images/Data dashboard ar bar chart.png?raw=true"/>
 _This is a bar chart showing the amount of account receivables during the time period chosen. The user can choose specific dates to view the data. A table which consists details of the bar chart is shown below the chart. All the data are extracted from phpMyAdmin._
