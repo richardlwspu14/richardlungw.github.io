@@ -1,28 +1,17 @@
-# Three Points Lab Assignment
+# Data Dashboard
 
-## Goal
-Your assignment is to write a C++ program that will read three points and will determine if the points represent a line or a triangle, the program will output information about the line or triangle depending the case.  This project will help you practicing:
-* C++ editing, running and debugging
-* ID, variables, types
-* Functions
-* Control structures
+## Internship Background
+The internship as a Data Analyst was conducted at PT. HK Metals Utama Tbk, a local aluminum manufacturing company located in Jakarta, Indonesia. The internship started on July 1, 2020, and ended on August 16, 2020. 
 
-## Sample Run
+## Assignment Details
+As a Data Analyst intern at PT. HK Metals Utama Tbk, I was assigned to develop a web-based data dashboard which displays up-to-date data of accounts receivable and sales. The company uses XAMPP to develop its web applications and phpMyAdmin to store and upload the database. Thus, I used these two programs to develop the data dashboard and Visual Studio Code as my IDE. 
 
-```
-Input Point 1: 2 1
-Input Point 1: 3 4
-Input Point 1: 5 1
-A Triangle
-Sides:
-  3.16
-  3.61
-  3.00
-Angles:
-  0.98
-  1.25
-  0.91
-Perimeter:   9.77
-Area:        4.50
+## Assignment Outcome
+Due to confidentiality, only the two features down below are allowed to be shared to the public. 
+<br></br>
+<img src="images/Data dashboard ar bar chart.png?raw=true"/>
+_This is a bar chart showing the amount of account receivables during the time period chosen. The user can choose specific dates to view the data. A table which consists details of the bar chart is shown below the chart. All the data are extracted from phpMyAdmin._
 
-```
+<img src="images/Data dashboard sales pie chart.png?raw=true"/>
+_This is a pie chart showing the amount of sales revenue during the time period chosen. The user can choose specific dates to view the data. A table which consists details of the pie chart is shown below the chart. All the data are extracted from phpMyAdmin._
+
