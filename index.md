@@ -13,7 +13,7 @@
 <img src="images/Dashboard ui.png?raw=true"/>
 
 ---
-[Summer Internship: Data Analyst Intern (PHP, SQL, HTML/CSS, JavaScript)](/company-employees.md)
+[Summer Internship: Data Analyst Intern (PHP, SQL, HTML/CSS, JavaScript)](/data-dashboard.md)
 <img src="Data dashboard ar bar chart.png?raw=true"/>
 <img src="Data dashboard sales pie chart.png?raw=true"/>
 
