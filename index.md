@@ -9,7 +9,7 @@
 
 ---
 
-[CSC3220 Applications Programming Lab 4 (Qt C++)](/text-analysis.md)
+[CSC3220 Applications Programming Lab 4 (Qt C++)](/dashboard-ui.md)
 <img src="images/Dashboard ui.png?raw=true"/>
 
 ---
