@@ -9,6 +9,9 @@
 ---
 
 ## Class Projects – Seattle Pacific University
+[CSC4151/4152 Software Engineering Final Project (React Native JavaScript)]
+
+---
 
 [CSC3220 Applications Programming Final Project (Qt C++)](/apps-program-final.md)
 <img src="images/Londre sc 1.png?raw=true"/>
@@ -20,13 +23,4 @@
 
 ---
 
-
-
-
-
-
-
-
-
----
 <!-- Remove above link if you don't want to attibute -->
