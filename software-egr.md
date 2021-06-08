@@ -8,7 +8,7 @@ This was a final group project for the CCSC4151/4152 Software Engineering course
 BASKET is a grocery delivery application mainly to serve all stakeholders around King County, WA. The application will provide functionalities like searching up for stores nearby, looking up items, ordering and delivery. During such trying times, local stores are struggling to survive and make ends meet. Unlike most grocery delivery applications that only covers chain grocery stores, BASKET provides a platform for “mom and pop” stores and other grocery stores that are not covered by competing delivery applications.
 
 ## Project Outcome
-<img src="images/Basket_landing.png?raw=true" width="100" height="200"/>
+<img src="images/Basket_landing.png?raw=true" width="300" height="600"/>
 _The landing page of our application. The 'Login' button allows users to login with their registered email and password, while the 'Sign Up' button allows the users to create an account._ 
 
 <img src="images/Basket_home.png?raw=true"/>
