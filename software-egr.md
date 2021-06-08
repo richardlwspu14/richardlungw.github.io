@@ -20,7 +20,7 @@ _This is where the users are able to search for stores. In this simulation, we d
 
 _This page stores the list of categories the store offers, in this case, the categories are offered at Asian Family Market Seattle. The data is stored in a local JSON file._
 
-<img src="images/Basket_Asian_Fruits.png?raw=true" width="300" height="600"/>
+<img src="images/Basket_Asian_fruits.png?raw=true" width="300" height="600"/>
 
 _This page stores the items of the selected category. The user is able to search for a specific brand of food by using the search bar._
 
@@ -32,6 +32,6 @@ _Once the user is done shopping, they can press the green basket icon at the top
 
 _On this page, the user can confirm their delivery address and phone number. Once the user inputs their delivery address, they can press 'View' to view the route between the store and the delivery address. The map's interface uses a React Native maps plugin, while the search for the delivery address uses the Bing Map API._
 
-<img src="images/Basket_order_confirmed.png?raw=true" width="300" height="600"/>
+<img src="images/Bakset_order_confirmed.png?raw=true" width="300" height="600"/>
 
 _When the user has confirmed their delivery address and phone number (by pressing the 'Confirm Order' button, they can press the image button at the center to return to the 'Search Stores' page._
