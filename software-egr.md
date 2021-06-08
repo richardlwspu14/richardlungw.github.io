@@ -9,7 +9,8 @@ BASKET is a grocery delivery application mainly to serve all stakeholders around
 
 ## Project Outcome
 <img src="images/Basket_landing.png?raw=true" width="300" height="600"/>
-'\n'_The landing page of our application. The 'Login' button allows users to login with their registered email and password, while the 'Sign Up' button allows the users to create an account._ 
+
+_The landing page of our application. The 'Login' button allows users to login with their registered email and password, while the 'Sign Up' button allows the users to create an account._ 
 
 <img src="images/Basket_home.png?raw=true" width="300" height="600"/>
 _This is where the users are able to search for stores. In this simulation, we decided to add 3 stores to the list. The search bar allows users to search for a specific store (filter function)._ 
