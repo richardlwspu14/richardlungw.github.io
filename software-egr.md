@@ -23,8 +23,7 @@ _This page stores the items of the selected category. The user is able to search
 <img src="images/Basket_Item.png?raw=true"/>
 _Once the user is done shopping, they can press the green basket icon at the top-right corner of the screen to continue to the Checkout page. Here, all the items' prices are shown as well as the subtotal and total price. The user can then press 'Continue' to continue to the Delivery page._
 
-<img src="images/Basket_checkout.png?raw=true"/>
-<img src="images/Basket_checkout_2.png?raw=true"/>
+<img src="images/Basket_checkout.png?raw=true"/> <img src="images/Basket_checkout_2.png?raw=true"/>
 _On this page, the user can confirm their delivery address and phone number. Once the user inputs their delivery address, they can press 'View' to view the route between the store and the delivery address. The map's interface uses a React Native maps plugin, while the search for the delivery address uses the Bing Map API._
 
 <img src="images/Basket_order_confirmed.png?raw=true"/>
