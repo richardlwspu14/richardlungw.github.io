@@ -9,13 +9,13 @@ BASKET is a grocery delivery application mainly to serve all stakeholders around
 
 ## Project Outcome
 <img src="images/Basket_landing.png?raw=true" width="300" height="600"/>
-_The landing page of our application. The 'Login' button allows users to login with their registered email and password, while the 'Sign Up' button allows the users to create an account._ 
+'\n'_The landing page of our application. The 'Login' button allows users to login with their registered email and password, while the 'Sign Up' button allows the users to create an account._ 
 
 <img src="images/Basket_home.png?raw=true" width="300" height="600"/>
 _This is where the users are able to search for stores. In this simulation, we decided to add 3 stores to the list. The search bar allows users to search for a specific store (filter function)._ 
 
 <img src="images/Basket_Asian.png?raw=true" width="300" height="600"/>
-_This page stores the list of categories the store offers, in this case, the categories are offered at Asian Family Market Seattle. The data is stored in a local JSON file._
+'\n'_This page stores the list of categories the store offers, in this case, the categories are offered at Asian Family Market Seattle. The data is stored in a local JSON file._
 
 <img src="images/Basket_Asian_Fruits.png?raw=true" width="300" height="600"/>
 _This page stores the items of the selected category. The user is able to search for a specific brand of food by using the search bar._
