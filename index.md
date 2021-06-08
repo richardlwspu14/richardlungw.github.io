@@ -10,6 +10,7 @@
 
 ## Class Projects – Seattle Pacific University
 [CSC4151/4152 Software Engineering Final Project (React Native JavaScript)](/software-egr.md)
+<img src="images/Basket_logo.png?raw=true"/>
 
 ---
 
