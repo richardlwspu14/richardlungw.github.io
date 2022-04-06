@@ -5,11 +5,11 @@ This was an individual project for the BUS3620 Management Information Systems co
 
 ## Assignment Details
 Taken from the instructor's assignment details:
-_Build a Tableau workbook based on either the Sample – Superstore or World Indicators datasets that come with Tableau with the following features: 
-- _At least one visualization that has a custom calculation
-- _At least one visualization that has a map
-- _At least one visualization utilizes motion
-- _At least one Dashboard
+_Build a Tableau workbook based on either the Sample – Superstore or World Indicators datasets that come with Tableau with the following features:_ 
+- _At least one visualization that has a custom calculation_
+- _At least one visualization that has a map_
+- _At least one visualization utilizes motion_
+- _At least one Dashboard_
 
 ## Assignment Outcome
 For this assignment, I have created a story which I published in the public Tableau server. For more information, please visit the following website:
