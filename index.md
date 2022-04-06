@@ -19,7 +19,7 @@
 
 ---
 
-[BUS3620 Management Information Systems Project (Tableau)](/description/mis_assign.md)
+[BUS3620 Management Information Systems Project (Tableau)](/description/mis_tableau.md)
 <img src="images/tableau_dashboard.png?raw=true"/>
 
 <!-- Remove above link if you don't want to attibute -->
