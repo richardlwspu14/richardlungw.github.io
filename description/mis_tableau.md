@@ -14,7 +14,8 @@ _Build a Tableau workbook based on either the Sample – Superstore or World Ind
 
 ## Assignment Outcome
 For this assignment, I have created a story which I published in the public Tableau server. For more information, please visit the following website:
-https://public.tableau.com/app/profile/richard.lung.wicaksono/viz/MISassign/Story2
+<a href="https://public.tableau.com/app/profile/richard.lung.wicaksono/viz/MISassign/Story2">Richard's Tableau Story</a> 
+
 
 I decided to select a dataset which represents the GDP Per Capita of EU countries and the hours to do tax for each country. When I stumbled upon this dataset, I was curious if the GDP Per Capita of a country can affect the time taken to prepare and pay taxes. Here are my findings:
 
