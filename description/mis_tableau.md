@@ -13,7 +13,7 @@ _Build a Tableau workbook based on either the Sample – Superstore or World Ind
 - _At least one Dashboard_
 
 ## Assignment Outcome
-For this assignment, I have created a story which I published in the public Tableau server. For more information, please visit the following website:
+For this assignment, I have created a story which I published in the public Tableau server. For more information, please visit the following link:
 <a href="https://public.tableau.com/app/profile/richard.lung.wicaksono/viz/MISassign/Story2">Richard's Tableau Story</a> 
 
 
