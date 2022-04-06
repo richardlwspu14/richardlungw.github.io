@@ -24,7 +24,7 @@
 
 ---
 
-[BUS3620 Management Information Systems Project (Tableau)](/dashboard-ui.md)
-<img src="images/Dashboard ui.png?raw=true"/>
+[BUS3620 Management Information Systems Project (Tableau)](/description/mis_assign.md)
+<img src="images/tableau_dashboard.png?raw=true"/>
 
 <!-- Remove above link if you don't want to attibute -->
