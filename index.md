@@ -1,8 +1,13 @@
 # Portfolio
 ---
 ## IBM Data Science Professional Certificate - Coursera
+[Data Visualization with Python](sections/data-visualization-with-python.md)
 
 ---
+[Python Project for Data Science](sections/python-project-for-ds.md)
+
+---
+
 ## Summer 2020 Data Analyst Internship – PT. HK Metals Utama Tbk
 [Data Dashboard (PHP, SQL, HTML/CSS, JavaScript)](/data-dashboard.md)
 <img src="Data dashboard ar bar chart.png?raw=true"/>
