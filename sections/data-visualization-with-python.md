@@ -14,14 +14,14 @@ The objective of this part of the Fnal assignment is to create dashboards to con
 
 ## Project Outcome
 
-<img src="/images/Title.png?raw=true" width="300" height="600"/>
+<img src="/images/Title.png?raw=true" width="800" height="200"/>
 
 _There are two dropdowns that were created. The first dropdown lets the user select which report they wish to view: Recession Period Statistics or Yearly Statistics. The second dropdown lets the user select the year in which the data were recorded. If they chose the Recession Period Statistics report, however, they will not be able to select the year from the dropdown._
 
-<img src="images/RecessionReportgraphs.png?raw=true" width="300" height="600"/>
+<img src="/images/RecessionReportgraphs.png?raw=true" width="800" height="200"/>
 
 _Charts and graphs for the Recession Period Statistics._ 
 
-<img src="images/YearlyReportgraphs.png?raw=true" width="300" height="600"/>
+<img src="/images/YearlyReportgraphs.png?raw=true" width="800" height="200"/>
 
 _Charts and graphs for the Yearly Statistics report. Users are able to select a specific year from the second dropdown, and all the graphs and charts will be updated in real-time._ 
