@@ -14,7 +14,9 @@ The objective of this part of the Fnal assignment is to create dashboards to con
 
 ## Project Outcome
 
+<img src="images/Title.png?raw=true" width="300" height="600"/>
 
+_There are two dropdowns that were created. The first dropdown lets the user select which report they wish to view: Recession Period Statistics or Yearly Statistics. The second dropdown lets the user select the year in which the data were recorded. If they chose the Recession Period Statistics report, however, they will not be able to select the year from the dropdown._
 
 <img src="images/RecessionReportgraphs.png?raw=true" width="300" height="600"/>
 
@@ -23,8 +25,3 @@ _Charts and graphs for the Recession Period Statistics._
 <img src="images/YearlyReportgraphs.png?raw=true" width="300" height="600"/>
 
 _Charts and graphs for the Yearly Statistics report. Users are able to select a specific year from the second dropdown, and all the graphs and charts will be updated in real-time._ 
-
-<img src="images/Bakset_order_confirmed.png?raw=true" width="300" height="600"/>
-
-_When the user has confirmed their delivery address and phone number (by pressing the 'Confirm Order' button, they can press the image button at the center to return to the 'Search Stores' page._
-
