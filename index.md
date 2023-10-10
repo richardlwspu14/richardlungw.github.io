@@ -2,9 +2,10 @@
 ---
 ## IBM Data Science Professional Certificate - Coursera
 [Data Visualization with Python](sections/data-visualization-with-python.md)
+<img src="images/Dashboard Front Page.png?raw=true"/>
 
 ---
-[Python Project for Data Science](sections/python-project-for-ds.md)
+[Python Project for Data Science](sections/senior-capstone.md)
 
 ---
 
