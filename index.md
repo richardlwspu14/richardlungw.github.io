@@ -6,6 +6,7 @@
 
 ---
 [Applied Data Science Capstone](sections/senior-capstone.md)
+<img src="images/Capstone Dashboard Front Page.png?raw=true"/>
 
 ---
 
