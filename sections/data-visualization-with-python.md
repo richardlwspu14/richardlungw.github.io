@@ -14,7 +14,7 @@ The objective of this part of the Fnal assignment is to create dashboards to con
 
 ## Project Outcome
 
-<img src="/images/Title.png?raw=true" width="2000" height="200"/>
+<img src="/images/Title.png?raw=true"/>
 
 _There are two dropdowns that were created. The first dropdown lets the user select which report they wish to view: Recession Period Statistics or Yearly Statistics. The second dropdown lets the user select the year in which the data were recorded. If they chose the Recession Period Statistics report, however, they will not be able to select the year from the dropdown._
 
