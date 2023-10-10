@@ -3,7 +3,7 @@
 This was the final assignment for Data Visualization with Python by IBM, a course included in the IBM Data Science Professional Certificate program by Coursera. Developed in Python. 
 
 ## Project Details
-This was the final assignment for Data Visualization with Python by IBM, from Coursera. 
+This was the final assignment for Data Visualization with Python by IBM on Coursera. 
 
 There are two parts to this final project:
 #### _Part 1 - Create visualizations using Matplotlib, Seaborn, & Folium_
