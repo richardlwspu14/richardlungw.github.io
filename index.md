@@ -5,7 +5,7 @@
 <img src="images/Dashboard Front Page.png?raw=true"/>
 
 ---
-[Python Project for Data Science](sections/senior-capstone.md)
+[Applied Data Science Capstone](sections/senior-capstone.md)
 
 ---
 
